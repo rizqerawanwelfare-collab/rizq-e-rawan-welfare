@@ -174,6 +174,12 @@ h2 { font: 400 clamp(2.2rem, 4.4vw, 3.7rem)/1.08 var(--serif); letter-spacing: -
 .phone-list { display: flex; gap: 4px 13px; flex-wrap: wrap; margin-block: 7px 0; }
 .phone-list a { display: inline-block; padding-block: 3px; color: var(--green); font-family: var(--sans); font-size: .95rem; font-weight: 750; }
 .contact-panel :focus-visible { outline-color: #87601f; }
+.donation-details { margin-block-start: 20px; padding: clamp(13px, 2vw, 18px); border: 1px solid var(--line); border-radius: 12px; background: var(--soft-green); }
+.donation-details h3 { margin-block-end: 10px; color: var(--green); font-size: 1.04rem; }
+.donation-details dl { display: grid; gap: 7px; margin: 0; }
+.donation-details dl > div { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 0 12px; }
+.donation-details dt { color: var(--muted); }
+.donation-details dd { margin: 0; font-weight: 700; font-variant-numeric: tabular-nums; }
 .site-footer { background: var(--cream); }
 .footer-inner { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 18px; padding-block: 25px; }
 .footer-inner > p { color: var(--muted); font-size: .9rem; }
