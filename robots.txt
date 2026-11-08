@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://www.rizq-e-rawan-welfare.org/sitemap.xml
