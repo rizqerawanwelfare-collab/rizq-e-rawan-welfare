@@ -224,6 +224,8 @@ figcaption.image-caption { padding: 8px 15px; border-block-start: 1px solid #e2d
 .contact-panel :focus-visible { outline-color: #87601f; }
 .donation-details { margin-block-start: 20px; padding: clamp(13px, 2vw, 18px); border: 1px solid var(--line); border-radius: 12px; background: var(--soft-green); }
 .donation-details h3 { margin-block-end: 10px; color: var(--green); font-size: 1.04rem; }
+.donation-method h4 { margin-block-end: 5px; font-size: .94rem; }
+.donation-method + .donation-method { margin-block-start: 12px; padding-block-start: 12px; border-block-start: 1px solid var(--line); }
 .donation-details dl { display: grid; gap: 7px; margin: 0; }
 .donation-details dl > div { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 0 12px; }
 .donation-details dt { color: var(--muted); }
